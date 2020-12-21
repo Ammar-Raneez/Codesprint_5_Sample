@@ -14,7 +14,7 @@ function About() {
 			</div>
 
 			<div className="hackabout__catchPhrase">
-				<h1>TAKING ON THE WORLD OF DATA SCIENCE, ONE PITCH AT A TIME</h1>
+				<h1> ‘HACK’ YOUR WAY TO THE NEXT BIG IDEA!</h1>
 			</div>
 
 			<div className="hackabout__countdown">
