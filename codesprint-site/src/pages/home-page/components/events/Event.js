@@ -5,7 +5,7 @@ import CardBody from './cardBody/CardBody';
 
 function Event() {
     return (
-		<div className="app">
+		<div className="event">
 			<h1>EVENTS</h1>
 			<Accordion className="accordion">
 				{/* event 01 */}

@@ -10,7 +10,7 @@
 	height: 50px;
 }
 
-button {
+.navBar__sectionTwo button {
 	background-color: transparent;
     font-size: 18px;
     font-weight: 600;
@@ -20,7 +20,7 @@ button {
 	color: white;
 }
 
-a {
+.navBar__sectionTwo a {
 	color: white;
     font-weight: 600;
     text-decoration: none;
@@ -31,7 +31,7 @@ a {
     margin: 0 15px;
 }
 
-.navBar__login{
+.navBar__sectionTwo .navBar__login {
     background-color: #02B1D8;
     padding: 10px 20px;
     border-radius: 14px;

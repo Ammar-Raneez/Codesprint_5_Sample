@@ -13,7 +13,7 @@ function Timeline() {
     let schoolIconStyles = { background: "#f9c74f" };
     
     return (
-        <div>
+        <div className="timeline">
             <h1 className="title">TIMELINE</h1>
             <VerticalTimeline>
                 {timelineElements.map((element) => {
