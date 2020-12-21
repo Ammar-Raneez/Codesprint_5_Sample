@@ -1,13 +1,14 @@
 .about {
     margin: 150px 0px;
     display: flex;
+    flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
 }
 
 .about__mainLogo {
-    object-fit: contain;
-    height: 200px;
+    /* object-fit: contain; */
+    height: 1000px;
 }
 
 .about__description {

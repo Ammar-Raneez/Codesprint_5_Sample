@@ -5,7 +5,7 @@ function NavBar() {
     return (
         <div className="navBar">
             <div className="navBar__sectionOne">
-                <img src="https://cdn.discordapp.com/attachments/787026782787207228/787386806110257152/Asset_1.png" alt=""/>
+                <img src="./logo.png" alt="logo"/>
             </div>
             <div className="navBar__sectionTwo">
                 <nav>

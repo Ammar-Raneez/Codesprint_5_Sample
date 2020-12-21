@@ -7,7 +7,7 @@ function About() {
 			<div>
 				<img
 					className="about__mainLogo"
-					src="https://cdn.discordapp.com/attachments/787026782787207228/787386806110257152/Asset_1.png"
+					src="./logo.png"
 					alt=""
 				/>
 			</div>
