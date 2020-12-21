@@ -3,24 +3,24 @@ import './About.css';
 
 function About() {
 	return (
-		<div className="about">
-			<div className="about__banner">
+		<div className="homeabout">
+			<div className="homeabout__banner">
 				<img
-					className="about__mainLogo"
+					className="homeabout__mainLogo"
 					src="./logo.png"
 					alt=""
 				/>
 			</div>
 
-			<div className="about__catchPhrase">
+			<div className="homeabout__catchPhrase">
 				<h1>TAKING ON THE WORLD OF DATA SCIENCE, ONE PITCH AT A TIME</h1>
 			</div>
 
-			<div className="about__register">
-				<button className="about__registerButton">REGISTER NOW</button>
+			<div className="homeabout__register">
+				<button className="homeabout__registerButton">REGISTER NOW</button>
 			</div>
 
-			<div className="about__description">
+			<div className="homeabout__description">
 				<h2>ABOUT CODESPRINT REVAMPED</h2>
 				<p>
 					Coming to you this year is a CodeSprint like never before: revamped and revved up, it's sure to keep you at the edges of your seats. Exercise your creativity and brainpower as you engage in a multitude of events we have for you. 

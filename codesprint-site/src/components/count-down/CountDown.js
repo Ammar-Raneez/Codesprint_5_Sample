@@ -41,9 +41,6 @@ function CountDown() {
 
 	return (
 		<div className="countDown">
-			<div className="countDown__title">
-				<p>TAKING ON THE WORLD OF DATA SCIENCE, ONE PITCH AT A TIME</p>
-			</div>
 			<div className="countDown__time">
 				<div>
 					<p>{timerDays}</p>
@@ -64,9 +61,6 @@ function CountDown() {
 					<p>{timerSeconds}</p>
 					<p>SECONDS</p>
 				</div>
-			</div>
-			<div className="countDown__register">
-				<button>REGISTER NOW</button>
 			</div>
 		</div>
 	);

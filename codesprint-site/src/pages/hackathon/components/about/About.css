@@ -1,4 +1,4 @@
-.about {
+.hackabout {
     margin: 0px 0px;
     display: flex;
     flex-direction: column;
@@ -6,34 +6,34 @@
     align-items: center;
 }
 
-.about .about__banner {
+.hackabout .hackabout__banner {
     height: 500px;
 }
 
-.about .about__mainLogo {
+.hackabout .hackabout__mainLogo {
     object-fit: contain;
     height: 500px;
 }
 
-.about .about__catchPhrase {
+.hackabout .hackabout__catchPhrase {
     max-width: 800px;
     text-align: center;
     margin-top: -30px;
     margin-bottom: 30px;
 }
 
-.about .about__catchPhrase > h1 {
+.hackabout .hackabout__catchPhrase > h1 {
     color: white;
     font-weight: bolder;
     font-size: 48px;
 }
 
-.about .about__register {
+.hackabout .hackabout__register {
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
-.about .about__register .about__registerButton {
+.hackabout .hackabout__register .hackabout__registerButton {
     background-color: #02B1D8;
     padding: 10px 20px;
     border-radius: 14px;
@@ -44,22 +44,22 @@
     margin-bottom: 30px;
 }
 
-.about__description {
+.hackabout__description {
     color: white;
     width: 1100px;
 }
 
-.about__description h2 {
+.hackabout__description h2 {
     color: #FFB600;
     margin-bottom: 8px;
-    text-align: center;
+    text-align: left;
     margin-bottom: 8px;
     font-size: 36px;
 }
 
-.about__description p {
+.hackabout__description p {
     font-weight: bolder;
-    text-align: center;
+    text-align: left;
     font-size: 18px;
     line-height: 30px;
 }

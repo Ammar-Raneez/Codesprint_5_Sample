@@ -1,4 +1,4 @@
-.about {
+.homeabout {
     margin: 0px 0px;
     display: flex;
     flex-direction: column;
@@ -6,34 +6,34 @@
     align-items: center;
 }
 
-.about .about__banner {
+.homeabout .homeabout__banner {
     height: 500px;
 }
 
-.about .about__mainLogo {
+.homeabout .homeabout__mainLogo {
     object-fit: contain;
     height: 500px;
 }
 
-.about .about__catchPhrase {
+.homeabout .homeabout__catchPhrase {
     max-width: 800px;
     text-align: center;
     margin-top: -30px;
     margin-bottom: 30px;
 }
 
-.about .about__catchPhrase > h1 {
+.homeabout .homeabout__catchPhrase > h1 {
     color: white;
     font-weight: bolder;
     font-size: 48px;
 }
 
-.about .about__register {
+.homeabout .homeabout__register {
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
-.about .about__register .about__registerButton {
+.homeabout .homeabout__register .homeabout__registerButton {
     background-color: #02B1D8;
     padding: 10px 20px;
     border-radius: 14px;
@@ -44,12 +44,12 @@
     margin-bottom: 30px;
 }
 
-.about__description {
+.homeabout__description {
     color: white;
     width: 1100px;
 }
 
-.about__description h2 {
+.homeabout__description h2 {
     color: #FFB600;
     margin-bottom: 8px;
     text-align: center;
@@ -57,7 +57,7 @@
     font-size: 36px;
 }
 
-.about__description p {
+.homeabout__description p {
     font-weight: bolder;
     text-align: center;
     font-size: 18px;

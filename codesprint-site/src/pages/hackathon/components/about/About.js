@@ -1,35 +1,37 @@
 import React from 'react';
+import CountDown from '../../../../components/count-down/CountDown';
 import './About.css';
 
 function About() {
 	return (
-		<div className="about">
-			<div className="about__banner">
+		<div className="hackabout">
+			<div className="hackabout__banner">
 				<img
-					className="about__mainLogo"
+					className="hackabout__mainLogo"
 					src="./logo.png"
 					alt=""
 				/>
 			</div>
 
-			<div className="about__catchPhrase">
+			<div className="hackabout__catchPhrase">
 				<h1>TAKING ON THE WORLD OF DATA SCIENCE, ONE PITCH AT A TIME</h1>
 			</div>
 
-			<div className="about__register">
-				<button className="about__registerButton">REGISTER NOW</button>
+			<div className="hackabout__countdown">
+				<CountDown />
 			</div>
 
-			<div className="about__description">
-				<h2>ABOUT CODESPRINT REVAMPED</h2>
+			<div className="hackabout__register">
+				<button className="hackabout__registerButton">REGISTER NOW</button>
+			</div>
+
+			<div className="hackabout__description">
+				<h2>ABOUT CODESPRINT HACKATHON</h2>
 				<p>
-					Coming to you this year is a CodeSprint like never before: revamped and revved up, it's sure to keep you at the edges of your seats. Exercise your creativity and brainpower as you engage in a multitude of events we have for you. 
+					As pioneers in organizing Inter-university Hackathons in Sri Lanka, the IEEE Student Branch of IIT is no stranger to bringing the newest and latest innovation competitions to the table. CodeSprint Revamped, which is to be held in 2021, shows great promise. Spanning across multiple events such as a Data Science Innovation battle, a Hackathon, a Digital Art competition, an ICT quiz and more, CodeSprint Revamped aims to bring the greatest technical and business minds together to compete against each other in an epic battle of innovation. 
 				</p>
 				<p>
-					The coding based ones are a data science competition, game development competition and hackathon, however, we do have some non-coding events to keep things spiced up and piping hot: a digital arts competition, gaming tournament and IT quiz. 
-				</p>
-				<p>
-					Wait! We have more! Accompanying these competitions is a series of webinars covering a wide range of topics to enrich and enhance your scope of knowledge. Thrilled yet?
+					The Hackathon, which is mainly organized by the IEEE Women in Engineering Affinity Group of IIT, will give its participants a valuable opportunity to improve their problem-solving skills, sharpen their critical thinking and polish their design and creative ideas. They will also get a chance to test their skills against other worthy competitors while working under a strict time crunch. 
 				</p>
 			</div>
 		</div>
