@@ -1,0 +1,81 @@
+.myCard__image img {
+	object-fit: contain;
+	height: 170px;
+}
+/* Left zip zag */
+.myCardLeft {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.myCard__descriptionTitleLeft h2 {
+	word-wrap: break-word;
+	color: white;
+    width: 300px;
+	padding: 10px;
+}
+.myCard__descriptionTitleLeft {
+    padding-left: 20px;
+	width: 650px;
+	background-color: #033443;
+}
+
+.myCard__descriptionBtnLeft {
+	padding-top: 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+.myCard__descriptionBtnLeft a button,
+.myCard__descriptionBtnRight a button {
+	background-color: #02b1d8;
+	border-radius: 10px;
+	outline: none;
+	border: none;
+	font-weight: 600;
+	padding: 5px 15px;
+	border: none;
+	color: white;
+}
+.myCard__descriptionBtnLeft > a,
+.myCard__descriptionBtnRight > a {
+	text-decoration: none;
+	color: white;
+	outline: none;
+	font-weight: 600;
+}
+a:hover {
+	color: #f6af03 !important;
+	text-decoration: none !important;
+}
+
+/* Right zip zag */
+.myCardRight {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row-reverse;
+}
+.myCard__descriptionTitleRight h2 {
+	word-wrap: break-word;
+	color: white;
+	text-align: right;
+	max-width: 300px;
+	padding: 10px;
+}
+.myCard__descriptionTitleRight {
+	width: 650px;
+	background-color: #033443;
+    display: flex;
+    padding-right: 20px;
+	align-items: center;
+	justify-content: flex-end;
+}
+.myCard__descriptionBtnRight {
+	padding-top: 20px;
+    display: flex;
+    flex-direction: row-reverse;
+	align-items: center;
+	justify-content: space-around;
+}

@@ -1,0 +1,39 @@
+/* Common for both right and left */
+.cardBody__descriptionTitle {
+	font-weight: 700;
+}
+.cardBody__descriptionBody {
+	text-align: justify;
+}
+.cardBody__image img {
+	object-fit: contain;
+	height: 250px;
+}
+
+/* Body right zig zag */
+.cardBodyRight {
+	display: flex;
+	padding: 30px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.cardBody__descriptionTitle,
+.cardBody__descriptionBody {
+	color: white;
+	padding-left: 20px;
+}
+
+/* Body left zig zag */
+.cardBodyLeft {
+	display: flex;
+	padding: 30px;
+	align-items: center;
+	flex-direction: row-reverse !important;
+	justify-content: space-between;
+}
+.cardBody__descriptionTitle,
+.cardBody__descriptionBody {
+	color: white;
+	padding-right: 20px;
+}

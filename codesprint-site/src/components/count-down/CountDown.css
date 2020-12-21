@@ -1,0 +1,70 @@
+.countDown {
+	display: flex;
+	margin: 50px;
+	/* border: 1px white solid; */
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: center;
+	height: 400px;
+}
+
+.countDown__register > button {
+	background-color: #02b1d8;
+	padding: 18.5px 22.5px;
+	border-radius: 14px;
+	font-size: 24px;
+}
+
+.countDown__title p {
+	color: white;
+	font-size: 40px;
+	width: 700px;
+	text-align: center;
+	text-justify: inter-word;
+	font-weight: 700;
+}
+
+.countDown__time {
+	display: flex;
+	padding: 0;
+	padding-bottom: 30px;
+	align-items: center;
+	color: white;
+	justify-content: space-evenly;
+	/* border: 1px white solid; */
+	width: 500px;
+}
+
+.countDown__time > div {
+	/* border: 1px white solid; */
+	display: flex;
+	padding: 0;
+	margin: 0;
+	height: 80px;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.countDown__time div p:first-child, .countDown__time > span {
+	/* border: 1px white solid; */
+	font-size: 45px;
+	padding: 0;
+	margin: 0;
+	font-weight: 700;
+}
+
+.countDown__time span {
+	/* border: 1px white solid; */
+	padding: 0;
+	height: 80px;
+	margin: 0;
+}
+
+.countDown__time div p:last-child {
+	font-size: 14px;
+	/* border: 1px white solid; */
+	padding: 0;
+	margin: 0;
+	font-weight: 600;
+}

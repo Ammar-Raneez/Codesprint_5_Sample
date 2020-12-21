@@ -1,0 +1,27 @@
+.about {
+    margin: 150px 0px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.about__mainLogo {
+    object-fit: contain;
+    height: 200px;
+}
+
+.about__description {
+    color: white;
+    width: 500px;
+}
+
+.about__description h2 {
+    color: #FFB600;
+    margin-bottom: 8px;
+}
+
+.about__description p {
+    font-weight: bolder;
+    text-align: justify;
+    font-size: 17px;
+}

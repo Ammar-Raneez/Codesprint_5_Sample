@@ -1,0 +1,19 @@
+.accordion {
+	width: 1000px;
+}
+.app {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+    justify-content: center;
+    padding: 50px;
+}
+.app h1 {
+	font-weight: 700;
+	color: #f6af03;
+}
+.card{
+    background-color: #022238 !important;
+    padding: 30px ;
+  /* border-bottom: 1px #063657 solid !important; */
+}
