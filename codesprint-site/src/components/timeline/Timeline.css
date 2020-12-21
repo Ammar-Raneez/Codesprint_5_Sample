@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 
+.timeline {
+    display: flex;
+    padding: 100px;
+}
+
 .timeline .title {
     font-size: 96px;
     text-align: center;
