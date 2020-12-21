@@ -6,11 +6,13 @@
 	flex-direction: column;
 	align-items: center;
     justify-content: center;
-    padding: 50px;
+	padding: 50px;
+	margin-top: 80px;
 }
 .event h1 {
 	font-weight: 700;
 	color: #f6af03;
+	font-size: 64px;
 }
 .event .card {
     background-color: #022238 !important;

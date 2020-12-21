@@ -10,9 +10,9 @@
 }
 
 .myCard__descriptionTitleLeft h2 {
-	word-wrap: break-word;
+	/* word-wrap: break-word; */
 	color: white;
-    width: 300px;
+    /* width: 300px; */
 	padding: 10px;
 }
 .myCard__descriptionTitleLeft {
@@ -58,10 +58,10 @@ a:hover {
 	flex-direction: row-reverse;
 }
 .myCard__descriptionTitleRight h2 {
-	word-wrap: break-word;
+	/* word-wrap: break-word; */
 	color: white;
 	text-align: right;
-	max-width: 300px;
+	/* max-width: 300px; */
 	padding: 10px;
 }
 .myCard__descriptionTitleRight {
