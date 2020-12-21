@@ -25,7 +25,7 @@
 	padding-top: 20px;
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
 }
 .myCard__descriptionBtnLeft a button,
 .myCard__descriptionBtnRight a button {
@@ -77,5 +77,13 @@ a:hover {
     display: flex;
     flex-direction: row-reverse;
 	align-items: center;
-	justify-content: space-around;
+	justify-content: space-between;
+}
+
+.myCard__descriptionBtnReadmoreLeft {
+	margin-left: 32px;
+}
+
+.myCard__descriptionBtnReadmoreRight {
+	margin-right: 32px;
 }

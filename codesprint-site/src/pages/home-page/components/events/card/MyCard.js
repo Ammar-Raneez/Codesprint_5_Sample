@@ -1,5 +1,6 @@
 import React from 'react';
 import './MyCard.css';
+import { Link } from 'react-router-dom';
 
 function MyCard({ imgUrl, eventTitle, registerLink, readMoreLink, direction }) {
 	return (
@@ -18,9 +19,11 @@ function MyCard({ imgUrl, eventTitle, registerLink, readMoreLink, direction }) {
 
 				{/* buttons */}
 				<div className={'myCard__descriptionBtn' + direction}>
-					<a href={readMoreLink} rel="noreferrer" target="_blank">
-						Read more
-					</a>
+					<Link to={readMoreLink}>
+						<a className={"myCard__descriptionBtnReadmore" + direction} rel="noreferrer">
+							Read more
+						</a>
+					</Link>
 
 					<a href={registerLink}>
 						<button>REGISTER</button>

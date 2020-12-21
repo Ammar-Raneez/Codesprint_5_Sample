@@ -16,7 +16,7 @@ function Event() {
 							imgUrl="https://www.founderpassion.org/wp-content/uploads/2017/09/hackathon-founderpassion-foundation.png"
 							eventTitle="CodeSprint Hackathon"
 							registerLink=""
-							readMoreLink=""
+							readMoreLink="/hackathon"
 							direction="Left"
 						/>
 					</Accordion.Toggle>
