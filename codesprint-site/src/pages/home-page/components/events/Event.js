@@ -1,4 +1,5 @@
 import React from 'react'
+import './Event.css'
 import { Accordion, Card } from 'react-bootstrap';
 import MyCard from './card/MyCard';
 import CardBody from './cardBody/CardBody';

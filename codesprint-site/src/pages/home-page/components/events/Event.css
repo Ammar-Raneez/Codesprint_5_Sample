@@ -14,6 +14,7 @@
 }
 .event .card {
     background-color: #022238 !important;
-    padding: 30px ;
+	padding: 30px ;
+	margin-bottom: 24px;
   /* border-bottom: 1px #063657 solid !important; */
 }
