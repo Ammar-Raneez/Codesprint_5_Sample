@@ -7,6 +7,7 @@ import Faq from './components/faq/Faq'
 import timelineElements from './timeline-data/TimelineElements'
 import Leaderboard from '../../components/leaderboard/Leaderboard'
 import ContactUs from '../../components/contact-us/ContactUs'
+import Footer from '../../components/footer/Footer'
 
 function InnovationBattle() {
     return (
@@ -17,6 +18,7 @@ function InnovationBattle() {
             <Leaderboard />
             <Faq />
             <ContactUs />
+            <Footer /> 
         </div>
     )
 }

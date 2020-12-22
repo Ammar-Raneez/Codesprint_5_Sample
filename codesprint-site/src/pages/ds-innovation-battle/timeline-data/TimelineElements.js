@@ -7,25 +7,25 @@ let timelineElements = [
     },
     {
         id: 2,
-        title: "INITIAL PITCH",
-        date: "22/12/2020",
+        title: "SOMETHING HAPPENS",
+        date: "28/12/2020",
         icon: "work",
     },
     {
         id: 3,
-        title: "INITIAL PITCH",
+        title: "SOMETHING HAPPENS",
         date: "22/12/2020",
         icon: "work",
     },
     {
         id: 4,
-        title: "INITIAL PITCH",
+        title: "SOMETHING HAPPENS",
         date: "22/12/2020",
         icon: "work",
     },
     {
         id: 5,
-        title: "INITIAL PITCH",
+        title: "SOMETHING HAPPENS",
         date: "22/12/2020",
         icon: "work",
     }
