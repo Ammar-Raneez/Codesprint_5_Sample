@@ -4,6 +4,8 @@
     flex-direction: column;
     align-items: center;
     position: relative;
+    margin-top: 80px;
+    margin-bottom: 80px;
 }
 
 .contactUs #heading {
