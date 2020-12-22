@@ -4,15 +4,17 @@ import About from './components/about/About'
 import Leaderboard from '../../components/leaderboard/Leaderboard'
 import Timeline from '../../components/timeline/Timeline'
 import timelineElements from './timeline-data/TimelineElements'
+import ContactUs from '../../components/contact-us/ContactUs'
 
 function Hackathon() {
     return (
-        <div>
+        <>
             <NavBar />
             <About />
             <Timeline timelineElements={ timelineElements } />
             <Leaderboard />
-        </div>
+            <ContactUs />
+        </>
     )
 }
 
