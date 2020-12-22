@@ -4,44 +4,54 @@
     justify-content: space-between;
     background-color: black;
 }
+
 .footer__description p:first-child {
 	color: white !important;
 }
+
 .footer__ieeeLogo img{
     object-fit: contain;
     padding: 30px;
-    height: 40px;
+    height: 7em;
 }
+
 .footer__ieeeLogo{
-    /* border: 1px white solid; */
     width: 300px;
 }
+
 .footer__description{
     display: flex;
     align-items: center;
     width: 350px;
-    /* border: 1px white solid; */
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
+    padding-top: 20px;
 }
+
 .footer__description p {
-    color: rgb(58, 58, 58);
-    margin-top: 10px;
-    font-weight: 700;
+    margin-bottom: 0;
 }
+
 .footer__description p:last-child{
     font-size: 13px;
+    color: #000;
+    transition: 0.2s ease;
 }
+.footer__description p:last-child:hover {
+    color: white;
+    cursor: pointer;
+}
+
 
 .footer__socialMedia{
     width: 300px;
-    /* border: 1px white solid; */
     display: flex;
 }
+
 .footer__socialMedia div{
-    padding: 10px;
+    padding: 0px;
 }
 
-.footer__socialMediaTwitter, .footer__socialMediaInstagram, .footer__socialMediaYouTube, .footer__socialMediaLinked{
+.footer__socialMediaIcon {
     color: white;
 }
