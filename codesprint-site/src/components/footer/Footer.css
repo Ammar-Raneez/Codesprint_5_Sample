@@ -32,16 +32,16 @@
     margin-bottom: 0;
 }
 
-.footer__description p:last-child{
+.footer__description .footer__descriptionSecret p {
     font-size: 13px;
-    color: #000;
+    color: #000 !important;
     transition: 0.2s ease;
 }
-.footer__description p:last-child:hover {
-    color: white;
+
+.footer__description .footer__descriptionSecret p:hover {
+    color: white !important;
     cursor: pointer;
 }
-
 
 .footer__socialMedia{
     width: 300px;

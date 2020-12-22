@@ -17,7 +17,7 @@ function Footer() {
 
 			<div className="footer__description">
 				<p>© CODESPRINT 2020 | All rights reserved</p>
-				<Link to="/secret"><p>WEBSITE BY NASH-ML</p></Link>
+				<Link className="footer__descriptionSecret" to="/secret"><p>WEBSITE BY NASH-ML</p></Link>
 			</div>
 
 			<div className="footer__socialMedia">
