@@ -1,13 +1,13 @@
 let timelineElements = [
     {
         id: 1,
-        title: "Sensei",
+        title: "REGISTRATION CLOSES",
         date: "22/12/2020",
         icon: "work",
     },
     {
         id: 2,
-        title: "Fullstack Developer",
+        title: "INITIAL PITCH",
         date: "22/12/2020",
         icon: "work",
     }

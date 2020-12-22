@@ -1,0 +1,65 @@
+.hackabout {
+    margin: 0px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.hackabout .hackabout__banner {
+    height: 500px;
+}
+
+.hackabout .hackabout__mainLogo {
+    object-fit: contain;
+    height: 500px;
+}
+
+.hackabout .hackabout__catchPhrase {
+    max-width: 800px;
+    text-align: center;
+    margin-top: -30px;
+    margin-bottom: 30px;
+}
+
+.hackabout .hackabout__catchPhrase > h1 {
+    color: white;
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hackabout .hackabout__register {
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.hackabout .hackabout__register .hackabout__registerButton {
+    background-color: #02B1D8;
+    padding: 10px 20px;
+    border-radius: 14px;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+.hackabout__description {
+    color: white;
+    width: 1100px;
+}
+
+.hackabout__description h2 {
+    color: #FFB600;
+    margin-bottom: 8px;
+    text-align: left;
+    margin-bottom: 8px;
+    font-size: 36px;
+}
+
+.hackabout__description p {
+    font-weight: bolder;
+    text-align: left;
+    font-size: 18px;
+    line-height: 30px;
+}
