@@ -76,54 +76,57 @@
 
 .showNavSectionOneImage img:first-child {
 	object-fit: contain;
+	height: 30px;
+	top: 25px;
+	left: 15px;
 	position: absolute;
-	-webkit-animation: earthRotation 2s infinite linear; /* Chrome, Safari, Opera */
-	animation: 5s infinite earthRotation linear;
+	-webkit-animation: earthRotation 10s infinite linear; /* Chrome, Safari, Opera */
+	animation: 10s infinite earthRotation linear;
 }
 
 @keyframes earthRotation {
 	0% {
 		transform: rotate(0deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	10% {
 		transform: rotate(36deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	20% {
 		transform: rotate(72deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	30% {
 		transform: rotate(108deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	40% {
 		transform: rotate(144deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	50% {
 		transform: rotate(180deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	60% {
 		transform: rotate(216deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	70% {
 		transform: rotate(252deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	80% {
 		transform: rotate(288deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	90% {
 		transform: rotate(324deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 	100% {
 		transform: rotate(360deg);
-		transition: 1s ease-in-out;
+		transition: 5s ease-in-out;
 	}
 }

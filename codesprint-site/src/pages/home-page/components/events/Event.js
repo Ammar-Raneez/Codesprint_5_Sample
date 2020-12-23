@@ -109,7 +109,7 @@ function Event() {
                             eventTitle="Gaming"
                             registerLink=""
                             readMoreLink=""
-                            direction="Right"
+                            direction="Left"
                         />
 					</Accordion.Toggle>
 					<Accordion.Collapse eventKey="3">
@@ -118,7 +118,7 @@ function Event() {
 								imgUrl="https://zegal.com/wp-content/uploads/2019/04/alex-kotliarskyi-361099-unsplash-1024x683.jpg"
 								eventTitle="Gaming"
                                 eventDes="One of the leading events of CodeSprint this year is, CodeSprint Revamped - the Data Science Innovation battle. Every day, an immense amount of data is generated globally.  According to the World Economic Forum, it is estimated that 463 exabytes (1000 to the power of si According to the World Economic Forum, it is estimated that 463 exabytes (1000 to the power of si According to the World Economic Forum, it is estimated that 463 exabytes (1000 to the power of si"
-                                direction="Right"
+                                direction="Left"
 							/>
 						</Card.Body>
 					</Accordion.Collapse>
