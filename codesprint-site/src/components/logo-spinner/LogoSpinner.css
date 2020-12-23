@@ -9,8 +9,8 @@
 	object-fit: contain;
 	position: absolute;
 	height: 180px;
-  margin-left: 95px;
-  margin-top: 145px;
+	margin-left: 95px;
+	margin-top: 145px;
 	-webkit-animation: earthRotation 2s infinite linear; /* Chrome, Safari, Opera */
 	animation: 5s infinite earthRotation linear;
 }
