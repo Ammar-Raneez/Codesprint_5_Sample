@@ -1,15 +1,17 @@
 import React from 'react';
 import './About.css';
+import LogoSpinner from '../../../../components/logo-spinner/LogoSpinner'
 
 function About() {
 	return (
 		<div className="homeabout">
 			<div className="homeabout__banner">
-				<img
+				{/* <img
 					className="homeabout__mainLogo"
 					src="./logo.png"
 					alt=""
-				/>
+				/> */}
+				<LogoSpinner />
 			</div>
 
 			<div className="homeabout__catchPhrase">

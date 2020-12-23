@@ -1,16 +1,18 @@
 import React from 'react';
 import CountDown from '../../../../components/count-down/CountDown';
+import LogoSpinner from '../../../../components/logo-spinner/LogoSpinner'
 import './About.css';
 
 function About() {
 	return (
 		<div className="hackabout">
 			<div className="hackabout__banner">
-				<img
+				{/* <img
 					className="hackabout__mainLogo"
 					src="./logo.png"
 					alt=""
-				/>
+				/> */}
+				<LogoSpinner />
 			</div>
 
 			<div className="hackabout__catchPhrase">
