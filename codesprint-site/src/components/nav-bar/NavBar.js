@@ -24,7 +24,7 @@ function NavBar() {
         <div className={`nav ${show && 'nav__black'}`}>
             <div className={`navBar__sectionOne ${show && 'showNavSectionOneImage'}`}>
                 <img src="./earth.png" alt=""/>
-                <img src="./logo.png" alt=""/>
+                <img src="./logo_wo.png" alt=""/>
             </div>
             <div className={`navBar__sectionTwo ${show && 'navBar__sectionTwoChange'}`}>
                 <nav>

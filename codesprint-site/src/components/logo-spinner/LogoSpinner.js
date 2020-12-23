@@ -6,7 +6,7 @@ function LogoSpinner() {
         <div className="codeSprintImage">
             <div className="codeSprintImage__image">
                 <img src="./earth.png" alt=""/>
-                <img src="./logo.png" alt=""/>
+                <img src="./logo_wo.png" alt=""/>
             </div>
         </div>
     )
