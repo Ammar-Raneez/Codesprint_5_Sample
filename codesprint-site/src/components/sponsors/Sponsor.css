@@ -17,7 +17,7 @@
 }
 
 .slides {
-    width: 50%;
+    width: 32%;
 }
 
 .slick-slide {
@@ -59,7 +59,7 @@
     opacity: 1 !important;
 }
 
-.slick-slide div div {
+/* .slick-slide div div {
     display: flex !important;
     justify-content: center !important;
-}
+} */

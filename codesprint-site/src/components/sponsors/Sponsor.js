@@ -9,22 +9,20 @@ function Sponsor() {
         dots: true,
         fade: true,
         infinite: true,
-        // centerMode: true,
-        speed: 500,
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        className: 'slides'
+        centerMode: true,
+        // slidesToShow: 1,
+        // slidesToScroll: 1,
+        slidesPerRow: 1,
+        className: 'slides',
+        autoplay: true,
+        autoplaySpeed: 2000
     };
-    // dots: true,
-    // infinite: true,
-    // centerMode: true,
-    // slidesToShow: 5,
-    // slidesToScroll: 3,
-    // speed: 500,
-    // arrows: true,
-    // className: 'slides'
 
     let sponsors = [
+        {
+            name: 'sponsor 1',
+            url: "sponsor-images/Sponser.png"
+        },
         {
             name: 'sponsor 1',
             url: "sponsor-images/Sponser.png"

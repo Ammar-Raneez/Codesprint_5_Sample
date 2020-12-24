@@ -11,8 +11,8 @@
 	height: 180px;
 	margin-left: 95px;
 	margin-top: 145px;
-	-webkit-animation: earthRotation 10s infinite linear; /* Chrome, Safari, Opera */
-	animation: 10s infinite earthRotation linear;
+	-webkit-animation: earthRotation 30s infinite linear; /* Chrome, Safari, Opera */
+	animation: 30s infinite earthRotation linear;
 }
 
 .codeSprintImage__image img:last-child {
