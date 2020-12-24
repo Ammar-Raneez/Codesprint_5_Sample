@@ -5,6 +5,7 @@ import PastEvents from './components/past-events/PastEvents'
 import Event from './components/events/Event'
 import ContactUs from '../../components/contact-us/ContactUs'
 import Footer from '../../components/footer/Footer'
+import Sponsor from '../../components/sponsors/Sponsor'
 
 function HomePage() {
     return (
@@ -14,6 +15,7 @@ function HomePage() {
             <Event />
             <PastEvents />
             <ContactUs />
+            <Sponsor />
             <Footer />
         </>
     )

@@ -6,6 +6,7 @@ import Timeline from '../../components/timeline/Timeline'
 import timelineElements from './timeline-data/TimelineElements'
 import ContactUs from '../../components/contact-us/ContactUs'
 import Footer from '../../components/footer/Footer'
+import Sponsor from '../../components/sponsors/Sponsor'
 
 function Hackathon() {
     return (
@@ -15,6 +16,7 @@ function Hackathon() {
             <Timeline timelineElements={ timelineElements } />
             <Leaderboard />
             <ContactUs />
+            <Sponsor />
             <Footer />
         </>
     )
