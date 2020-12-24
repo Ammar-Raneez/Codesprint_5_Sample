@@ -14,7 +14,7 @@ function Hackathon() {
             <NavBar />
             <About />
             <Timeline timelineElements={ timelineElements } />
-            <Leaderboard />
+            <Leaderboard second="20 000" first="25 000" third="15 000" />
             <ContactUs />
             <Sponsor />
             <Footer />

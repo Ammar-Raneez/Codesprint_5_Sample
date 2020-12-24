@@ -15,7 +15,7 @@ function InnovationBattle() {
             <NavBar />
             <About />
             <Timeline timelineElements={ timelineElements } />
-            <Leaderboard />
+            <Leaderboard second="75 000" first="150 000" third="50 000" />
             <Faq />
             <ContactUs />
             <Footer /> 

@@ -53,7 +53,7 @@ function Sponsor() {
 
     return (
         <div className="sponsor">
-            <h1 id="heading">Sponsors</h1>
+            <h1 id="heading">SPONSORS</h1>
             <Slider {...settings}>
                 {sponsors.map(photo => (
                     <div style={{ width: '100px' }}>
