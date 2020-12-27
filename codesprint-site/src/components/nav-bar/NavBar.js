@@ -32,7 +32,7 @@ function NavBar() {
                     <button><Link><a>ABOUT</a></Link></button>
                     <button><Link><a>EVENTS</a></Link></button>
                     <button><Link><a>CONTACT US</a></Link></button>
-                    <button className="navBar__login">LOG IN</button>
+                    <button className="navBar__login">REGISTER</button>
                 </nav>
             </div>
         </div>
