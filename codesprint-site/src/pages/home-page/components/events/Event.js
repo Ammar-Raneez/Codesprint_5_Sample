@@ -62,7 +62,7 @@ function Event() {
 							imgUrl="https://www.founderpassion.org/wp-content/uploads/2017/09/hackathon-founderpassion-foundation.png"
 							eventTitle="Digital Art"
                             registerLink=""
-                            readMoreLink=""
+                            readMoreLink="/digitalart"
                             direction="Left"
 						/>
 					</Accordion.Toggle>
@@ -85,7 +85,7 @@ function Event() {
                             imgUrl="https://www.founderpassion.org/wp-content/uploads/2017/09/hackathon-founderpassion-foundation.png"
                             eventTitle="ICT Quiz"
                             registerLink=""
-                            readMoreLink=""
+                            readMoreLink="/ictquiz"
                             direction="Right"
                         />
 					</Accordion.Toggle>
@@ -108,7 +108,7 @@ function Event() {
                             imgUrl="https://www.founderpassion.org/wp-content/uploads/2017/09/hackathon-founderpassion-foundation.png"
                             eventTitle="Gaming Tournament"
                             registerLink=""
-                            readMoreLink=""
+                            readMoreLink="/gamingtournament"
                             direction="Left"
                         />
 					</Accordion.Toggle>
@@ -131,7 +131,7 @@ function Event() {
                             imgUrl="https://www.founderpassion.org/wp-content/uploads/2017/09/hackathon-founderpassion-foundation.png"
                             eventTitle="Game Development"
                             registerLink=""
-                            readMoreLink=""
+                            readMoreLink="/gamedevelopment"
                             direction="Right"
                         />
 					</Accordion.Toggle>
