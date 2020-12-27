@@ -2,7 +2,7 @@ import './App.css';
 import HomePage from './pages/home-page/HomePage';
 import Hackathon from './pages/hackathon/Hackathon';
 import InnovationBattle from './pages/ds-innovation-battle/InnovationBattle';
-import DigitalArt from './pages/art-competition/DIgitalArt';
+import DigitalArt from './pages/art-competition/DigitalArt';
 import Quiz from './pages/quiz/Quiz';
 import GamingDev from './pages/gaming-dev/GamingDev';
 import GamingTournament from './pages/gaming-tournament/GamingTournament';

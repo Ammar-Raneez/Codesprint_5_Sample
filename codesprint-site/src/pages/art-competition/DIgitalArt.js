@@ -9,7 +9,7 @@ import ContactUs from '../../components/contact-us/ContactUs'
 import Footer from '../../components/footer/Footer'
 import Sponsor from '../../components/sponsors/Sponsor'
 
-function DIgitalArt() {
+function DigitalArt() {
     return (
         <div className="digitalArt">
             <NavBar />
@@ -23,4 +23,4 @@ function DIgitalArt() {
     )
 }
 
-export default DIgitalArt
+export default DigitalArt
