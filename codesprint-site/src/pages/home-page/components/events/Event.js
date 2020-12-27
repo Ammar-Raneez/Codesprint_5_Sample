@@ -131,7 +131,7 @@ function Event() {
                             imgUrl="https://www.founderpassion.org/wp-content/uploads/2017/09/hackathon-founderpassion-foundation.png"
                             eventTitle="Game Development"
                             registerLink=""
-                            readMoreLink="/gamedevelopment"
+                            readMoreLink="/gamingdevelopment"
                             direction="Right"
                         />
 					</Accordion.Toggle>
