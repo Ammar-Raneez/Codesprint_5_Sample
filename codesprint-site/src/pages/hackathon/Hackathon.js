@@ -11,7 +11,7 @@ import Faq from './components/faq/Faq'
 
 function Hackathon() {
     return (
-        <>
+        <div className="hackathon">
             <NavBar />
             <About />
             <Timeline timelineElements={ timelineElements } />
@@ -20,7 +20,7 @@ function Hackathon() {
             <ContactUs />
             <Sponsor />
             <Footer />
-        </>
+        </div>
     )
 }
 
